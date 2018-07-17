@@ -1,0 +1,22 @@
+@import './../variables';
+
+.comment-item {
+  padding-top: 40px;
+  padding-left: $inner-space;
+
+  @media screen and (max-width: $break-md) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  @media screen and (max-width: $break-xs) {
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+  }
+
+}
+
+.comment-item:last-child {
+  padding-bottom: 50px;
+}

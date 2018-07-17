@@ -1,0 +1,29 @@
+@import './../variables';
+
+.comment-text {
+  width: 675px;
+
+  @media screen and (max-width: $break-md) {
+    width: 520px;
+  }
+
+  @media screen and (max-width: $break-sm) {
+    width: 270px;
+  }
+
+  @media screen and (max-width: $break-xs) {
+    float: none;
+  }
+
+    textarea {
+    font-family: 'Stag Book', Arial, sans-serif;
+    width: 100%;
+    border: 1px solid $grey-color;
+    resize: none;
+    padding: 15px;
+    font-size: 17px;
+    height: 86px;
+    box-sizing: border-box;
+  }
+
+}

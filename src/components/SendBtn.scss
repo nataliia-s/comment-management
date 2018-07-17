@@ -1,0 +1,21 @@
+@import './../variables';
+
+.btn-container {
+  text-align: right;
+
+  @media screen and (max-width: $break-xs) {
+    text-align: center;
+  }
+
+  .yellow-btn {
+    font-family: 'Stag Medium', Arial, sans-serif;
+    color: $dark-grey-color;
+    font-size: 17px;
+    background-color: $yellow-color;
+    padding: 15px 51px;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+  }
+
+}

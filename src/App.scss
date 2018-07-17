@@ -1,0 +1,82 @@
+@import './variables';
+
+@font-face {
+  font-family: 'Stag Book';
+  font-style: normal;
+  font-weight: 300;
+  src: url('assets/fonts/stag-book-cufonfonts/STAG-BOOK_0.OTF'); /* IE9 Compat Modes */
+  src: local('Stag'), local('Stag'),
+  url('assets/fonts/stag-book-cufonfonts/STAG-BOOK_0.woff') format('woff'); /* Modern Browsers */
+}
+
+@font-face {
+  font-family: 'Stag Semibold';
+  font-style: normal;
+  font-weight: 600;
+  src: url('assets/fonts/stag-book-cufonfonts/STAG-SEMIBOLD_0.OTF'); /* IE9 Compat Modes */
+  src: local('Stag'), local('Stag'),
+  url('assets/fonts/stag-book-cufonfonts/STAG-SEMIBOLD_0.woff') format('woff'); /* Modern Browsers */
+}
+
+@font-face {
+  font-family: 'Stag Medium';
+  font-style: normal;
+  font-weight: 600;
+  src: url('assets/fonts/stag-book-cufonfonts/STAG-MEDIUM_0.OTF'); /* IE9 Compat Modes */
+  src: local('Stag'), local('Stag'),
+  url('assets/fonts/stag-book-cufonfonts/STAG-MEDIUM_0.woff') format('woff'); /* Modern Browsers */
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.medium-font {
+  font-family: 'Stag Medium', Arial, sans-serif;
+}
+
+.caption {
+  position: relative;
+  font-family: 'Stag Semibold', Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  border-bottom: 2px solid #f2f2f2;
+  margin-bottom: 9px;
+  margin-top: 0;
+  padding: 30px 0 24px;
+
+}
+
+.rounded-border {
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+
+.gray-text {
+  font-family: $medium-font;
+  color: #b6b6b6;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Stag Book', Arial, sans-serif;
+  font-size: 17px;
+  color: $dark-grey-color;
+  background-color: $grey-color;
+
+  .container {
+    width: 100%;
+  }
+}

@@ -1,0 +1,28 @@
+@import './../variables';
+
+.reply-list {
+  .user-avatar-container {
+
+    @media screen and (max-width: $break-md) {
+      width: 70px !important;
+    }
+
+    .user-avatar {
+      width: 60px;
+      height: 60px;
+    }
+  }
+
+  .pull-left {
+
+    @media screen and (max-width: $break-sm) {
+      width: 180px;
+
+    }
+    @media screen and (max-width: $break-xs) {
+      float: none;
+      width: 100%;
+    }
+
+  }
+}

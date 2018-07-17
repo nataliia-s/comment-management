@@ -1,0 +1,25 @@
+@import './../variables';
+
+.user-avatar-container {
+  width: 105px;
+
+  @media screen and (max-width: $break-md) {
+    width: 100px;
+  }
+
+  @media screen and (max-width: $break-sm) {
+    width: 90px;
+  }
+
+  @media screen and (max-width: $break-xs) {
+    float: none;
+    margin: 0 auto;
+  }
+
+  .user-avatar {
+    border: 2px solid $avatar-border-color;
+    padding: 2px;
+    width: 80px;
+    height: 80px;
+  }
+}

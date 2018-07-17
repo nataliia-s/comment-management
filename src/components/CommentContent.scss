@@ -1,0 +1,88 @@
+@import './../variables';
+
+.comment-content {
+  width: 675px;
+
+  @media screen and (max-width: $break-md) {
+    width: 520px;
+  }
+
+  @media screen and (max-width: $break-sm) {
+    width: 270px;
+  }
+
+  div {
+    @media screen and (max-width: $break-md) {
+      display: block;
+    }
+  }
+
+  p {
+    margin: 15px 0 !important;
+
+    @media screen and (max-width: $break-md) {
+      float: left;
+      width: 100%;
+      margin: 10px 0 !important;
+      padding-left: 6px;
+    }
+
+    @media screen and (max-width: $break-xs) {
+      margin: 0 !important;
+      text-align: center;
+    }
+  }
+
+  span {
+    @media screen and (max-width: $break-md) {
+      //display: block;
+
+      padding-left: 6px;
+    }
+
+    @media screen and (max-width: $break-md) {
+      padding-left: 6px;
+    }
+
+  }
+
+  span.medium-font {
+    @media screen and (max-width: $break-md) {
+      display: block;
+    }
+  }
+
+  span.gray-text {
+    @media screen and (max-width: $break-md) {
+      display: inline-block;
+    }
+  }
+
+  svg {
+    margin-left: 10px;
+    margin-right: 5px;
+  }
+
+  .gray-text {
+
+    .comment-btn {
+      border: none;
+      background: transparent;
+      cursor: pointer;
+    }
+
+    svg:first-child {
+      margin-left: 0;
+    }
+  }
+
+  .reply-list {
+    margin-bottom: 8px;
+    margin-top: 24px;
+
+    .medium-font {
+      margin-right: 9px;
+    }
+  }
+
+}
